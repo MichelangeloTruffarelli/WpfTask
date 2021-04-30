@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfTask.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTask"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="390" Width="600">
+    <Grid>
+        <TextBox x:Name="txt_inserisci" HorizontalAlignment="Left" Height="36" Margin="200,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191" BorderBrush="Black"/>
+        <Label Content="Inserisci un numero:" HorizontalAlignment="Left" Height="40" Margin="200,10,0,0" VerticalAlignment="Top" Width="205" FontSize="20" FontWeight="Bold"/>
+        <ProgressBar x:Name="pb1" HorizontalAlignment="Left" Height="27" Margin="200,117,0,0" VerticalAlignment="Top" Width="191"/>
+        <Label Content="Conteggio Multipli:" HorizontalAlignment="Left" Height="38" Margin="36,173,0,0" VerticalAlignment="Top" Width="191" FontSize="20" FontWeight="Bold"/>
+        <Button x:Name="btn_esegui" Content="Esegui" HorizontalAlignment="Left" Margin="80,216,0,0" VerticalAlignment="Top" Width="101" Height="39" FontSize="20" FontWeight="Bold" Click="btn_esegui_Click"/>
+        <Label x:Name="lbl_Risultato" HorizontalAlignment="Left" Height="57" Margin="36,276,0,0" VerticalAlignment="Top" Width="191" FontSize="18" FontWeight="Bold"/>
+        <Button x:Name="btn_primo" Content="Calcola se primo" HorizontalAlignment="Left" Height="39" Margin="365,216,0,0" VerticalAlignment="Top" Width="174" FontSize="20" FontWeight="Bold" Click="btn_primo_Click"/>
+        <Label x:Name="lbl_Ris_Primo" Content="" HorizontalAlignment="Left" Height="57" Margin="352,276,0,0" VerticalAlignment="Top" Width="200" FontSize="18"/>
+    </Grid>
+</Window>
